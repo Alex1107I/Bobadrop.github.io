@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
+        <style>
+        body {
+          font-family: "Audiowide", sans-serif;
+        }
+        body {
+          background-color: rgb(168, 93, 50);
+        }
+        .button {
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        background-color: white;
+        color: black;
+        border: 2px solid #04AA6D;
+        font-style: sans-serif;
+        transition-duration: 0.4s;
+        }
+        .button:hover {
+          background-color: #04AA6D;
+          color: white;
+        }
+
+        </style>
+        </head>
+<body>
+    <h1>Boba is pretty cool</h1>
+    <img width= "200px" height= "200px" src="https://images.immediate.co.uk/production/volatile/sites/30/2022/06/Bubble-Tea-81ba83b.png?quality=90&webp=true&resize=600,545" />
+    <p style="color:white;"> Fun fact: did you know that "boba pearls" were inspired by a Taiwanese dessert called "fen yuan" (sweetened tapioca pudding) and were first combined with tea in 1988?</p>
+    <p style="color:yellowgreen;"> Anyways Boba is very good!</p>
+    <p> </p>
+    <button class="button" id="button" onclick="machine()">Boba machine</button>
+    <script>
+    function machine() {
+      document.getElementById("button").innerHTML = "Unfortunately the Boba machine is broken, Sorry!";
+      }
+    </script>
+</body>
+</html>
